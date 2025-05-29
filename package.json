@@ -1,0 +1,26 @@
+{
+  "name": "WebRendererMCP",
+  "version": "1.0.0",
+  "description": "MCP server to render HTML in browser",
+  "author": "zys5945",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "watch": "tsc --watch"
+  },
+  "bin": {
+    "mcp-server-filesystem": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "shx": "^0.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}

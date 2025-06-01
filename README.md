@@ -16,3 +16,9 @@ WebRendererMCP renders HTML using Playwright and exposes it as an MCP server.
   }
 }
 ```
+
+## Tools provided
+
+```
+renderHTML(pageId: string, html: string)
+```
